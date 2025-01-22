@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+  }
+
+/* HEADER-SECTION */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0px auto;
+    padding: 0px 80px;
+}
+.hamburger{display: none;}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{width: 55px;height: 55px;}
+.logo-heading{font-size: 32px;font-weight: bold;}
+
+           /* + */
+
+/* .navbar{
+    
+} */
+.all-nav{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-home{font-size: 1.15rem;color:#FEA301;font-weight: 500;text-decoration: none;}
+.nav-about{font-size: 1.15rem;text-decoration: none;font-weight: 500;color: #01ACFD;}
+.nav-facilities{font-size: 1.15rem;text-decoration: none;font-weight: 500;color:#05D4DF ;}
+.nav-admission{font-size: 1.15rem;text-decoration: none;font-weight: 500;color: #5D58EF;}
+.contact{
+    color: #ffffff;
+    padding: 10px 60px;
+    font-size: 1.10rem;
+    font-weight: 400;
+    background-color:#FEA301;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.scrolling{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #202020;
+    color: white;
+    margin: 20px;
+}
+
+/* MAIN-SECTION */
+
+/* hero-part */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 120px;
+}
+.hero-column-one{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero-heading{font-size: 3rem;font-weight: bold;margin: 10px 0px;}
+.empowering{color: #FEA301;}
+.towards{color: #01ACFD;}
+.hero-description{font-size: 1.10rem;}
+.hero-button{
+    color: white;
+    padding: 10px 45px;
+    background-color: black;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero-img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+             /* + */
+
+/* curriculim-part */
+
+.curriculum{
+    background-image: url(B11-A2-Kids-School/assets/bg.png);
+
+}
+.curriculum-heading{font-size: 2.5rem;font-weight: bold;text-align: center;}
+.curriculmn-cards{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 100px; */
+    background-color: #ffffff;
+    margin: 60px 100px;
+    gap: 28px;
+}
+.curri-card-one{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(222, 245, 255, 1)0% ,rgba(255, 255, 255, 0)40%);
+    border: 1px solid rgba(222, 245, 255, 1);
+    height: 300px;
+}
+.curri-card-two{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(255, 244, 220, 1)0% ,rgba(255, 255, 255, 0)40%);
+    border: 1px solid rgba(255, 244, 220, 1);
+}
+.curri-card-three{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(238, 225, 255, 1)0% ,rgba(255, 255, 255, 0)40%);
+    border: 1px solid rgba(242, 232, 255, 1);
+}
+.curri-card-img{width:120px;height:120px;}
+.curri-card-heading{font-size: 1.5rem;color: #202020;font-weight: bold;margin: 13px;}
+.curri-card-des{font-weight: 500;color: #808080;text-align: center;margin: 0px auto 20px auto;}
+.curri-link-one{color: #64C8FF;font-weight: bold;font-size: 14px;text-decoration: none;padding: 5px;}
+.curri-link-two{color: #F0AA00;font-weight: bold;font-size: 14px;text-decoration: none;padding: 5px;}
+.curri-link-three{color:#8700FF;font-weight: bold;font-size: 14px;text-decoration: none;padding: 5px;}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding: 0px 20px 20px 20px;
+}
+.arrow-one{
+    background-color: #FEA301;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+             /* + */
+
+.stories{
+    background-image: linear-gradient(to top,rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3)),url(B11-A2-Kids-School/assets/bg.png);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.all-stories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 120px;
+    padding: 0px 0px;
+    gap: 24px;
+}
+.stories-heading{font-size: 2.6rem;font-weight: bold;text-align: center;}
+.stories-column-one{
+    width: auto;
+}
+.column-one-card{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.column-one-card-img{
+    width: auto;
+    border-radius: 16px 16px 0px 0px;
+}
+.date-1{
+    background-color: #3CD8E8;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 40px;
+}
+.date-2{
+    background-color: #ce3ce8;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 165px;
+    margin-right: 80px;
+}
+.date-3{
+    background-color: #5D58F0;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 165px;
+    margin-right: 80px;
+}
+.head-des{
+    padding: 30px;
+}
+.column-one-card-heading{font-size: 1.2rem;font-weight: bold;}
+.column-one-card-des{font-size: 15px;font-weight: 500;color: #666666;}
+          /* +++++ */
+.stories-column-two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+    align-items: center;
+}
+.card-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: white;
+}
+.card-dim{padding: 30px 38px;}
+.dim-des{padding: 0px;margin: 0px;font-weight: bold;}
+.card-1-img{border-radius: 16px 16px 0px 0px;}
+
+.view{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    border-radius: 16px;
+    background-color: #111111;
+    padding: 10px 61px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+.footer{
+    background-color: #d31ce4;
+    padding: 100px 0px;
+}
+.all-footer-coloumn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    gap: 30px;
+}
+.footer-coloumn-one{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo-heading{
+    font-weight: bold;font-size: 2.50rem;margin: 0px;color: #ffffff;
+}
+.footter-img{height: 82px;width: 82px;}
+.footer-description{font-size: 1.25rem;color: #ffffff;}
+         /* + */
+.footer-coloumn-two{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-coloumn-two-heading{font-size: 1.4rem;color: #ffffff;font-weight: bold;margin: 0px;padding: 0px;}
+.links{list-style: none;display: flex;flex-direction: column;gap: 8px;align-items: start;padding: 0px;}
+.footer-link{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: start;
+    /* background-color: black; */
+}
+        /* +     */
+.footer-coloumn-three{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.footer-coloumn-three-heading{font-size: 1.5rem;color: #ffffff;font-weight: bold;margin: 0px;} 
+.footer-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:565px) {
+    .all-footer-coloumn{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        align-items: start;
+        margin: 0px 30px;
+    }
+    .navbar{display: none} 
+    .logo-heading{display: none;}
+    .contact{display: none;}
+    .hamburger{display: block;font-size: 30px;color: rgba(17, 17, 17, 1);}
+    .header{border-bottom: 1px solid #FEA301;}
+    .header-container{
+        margin: 30px 30px;
+        padding: 0px;
+    }
+        /* + */
+
+    .hero-heading{font-size: 2.5rem;}
+    .hero{
+        flex-direction: column-reverse;
+        margin: 30px;
+    }
+    .hero-column-one{text-align: center;}
+
+    .curriculum{flex-direction: column;}
+    .curriculmn-cards{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px 30px;
+        gap: 12px;
+    }
+    .arrow{display: none;}
+
+    .stories{
+        margin: 0px;
+        padding: 0px;
+        width: auto;   
+    }
+    .stories-heading{
+        padding: 20px;
+    }
+    .all-stories{
+        padding: 0px;
+        margin: 25px 20px;
+        /* box-sizing: border-box; */
+    }
+    .stories-column-one{display: none;}
+    .stories-column-two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        margin: 0px;
+        /* width: 100%; */
+        margin: 0px;
+    }
+    .card-1{
+        min-width: 100%;
+        min-height: 200px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card-1-img{
+        width: 100%;
+        margin: 0px;
+    }
+    .date-3{
+        margin-top: 130px;
+        margin-left: 30px;
+        font-size: 14px;
+        width: auto;
+    }
+     .date-2{
+        margin-top: 130px;
+        margin-left: 30px;
+        font-size: 14px;
+        width: auto;
+     }
+}
+
+
+@media screen and (min-width:565) and (max-width:990px){
+    .header{
+        width: 100%;
+        margin: auto;
+    }  
+    .hero{
+        display: flex;
+        flex-direction: column;
+        background-color: #01ACFD;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
